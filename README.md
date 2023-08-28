@@ -3,11 +3,26 @@ Public released software for ROScube-X series.
 
 Please go to [release page](https://github.com/Adlink-ROS/rqx-release-sw/releases) to download.
 
-## FPGA Flash Tool
-
-Currently, this tool only supports RQX-590 with ADLINK GMSL/FPDL board.
+The latest FPGA flash tool:
 
 - fpga_flash_tool_0.9.0
+
+The latest FOGA firmware:
+
+- rqx590_0x24.vme
+
+## FPGA Flash Tool
+
+Currently, this tool only supports RQX-590 with `ADLINK GMSL` and `ADLINK FPDL` board.
+
+You can download `check_io_board.py` from the release page to check which I/O board you are using now.
+
+```bash
+chmod +x check_io_board.py
+sudo ./check_io_board.py
+```
+
+![](pictures/adlink_gmsl_board.png)
 
 ## RQX590 FPGA Firmware
 
@@ -15,11 +30,6 @@ Currently, this tool only supports RQX-590 with ADLINK GMSL/FPDL board.
 ```bash
 i2cget -f -y 2 0x66 0x01
 ```
-
-The latest firmware:
-
-- rqx590_0x24.vme
-
 
 ### How to flash
 
