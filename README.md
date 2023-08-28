@@ -50,6 +50,6 @@ Please follow the instructions below to flash RQX590 FPGA:
     ```
     ![](pictures/fpga_fw_0x24.png)
 
-Note: If FPGA failed to flash, please make sure the DIP switches on the IO Board are turned on.
-
+    Note: If FPGA failed to flash, please make sure the DIP switches on the IO Board are turned on.
+    
     ![](pictures/fpga_dip_sw.png)
