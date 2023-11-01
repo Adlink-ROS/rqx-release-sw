@@ -7,7 +7,7 @@ The latest FPGA flash tool:
 
 - fpga_flash_tool_0.9.0
 
-The latest FOGA firmware:
+The latest FPGA firmware:
 
 - rqx590_0x24.vme
 
