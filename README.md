@@ -13,7 +13,7 @@ The latest FPGA firmware:
 
 ## FPGA Flash Tool
 
-Currently, this tool only supports RQX-590 with `ADLINK GMSL` and `ADLINK FPDL` board.
+Currently, this tool only supports **RQX-59G** with `ADLINK GMSL` board and **RQX-59F** with `ADLINK FPDL` board.
 
 You can download `check_io_board.py` from the release page to check which I/O board you are using now.
 
