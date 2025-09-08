@@ -5,7 +5,7 @@ Please go to [release page](https://github.com/Adlink-ROS/rqx-release-sw/release
 
 The latest FPGA flash tool:
 
-- fpga_flash_tool_0.9.0
+- fpga_flash_tool_0.9.2
 
 The latest FPGA firmware:
 
@@ -38,17 +38,19 @@ Please follow the instructions below to flash RQX590 FPGA:
 1. Download and extract `rqx590_<ver>.vme.tgz` and `fpga_flash_tool_<ver>.tgz`
 
     ```bash
-    tar zxvf fpga_flash_tool_0.9.0.tgz
+    tar zxvf fpga_flash_tool_0.9.2.tgz
     tar zxvf rqx590_0x24.vme.tgz
-    cp rqx590_0x24.vme ./fpga_flash_tool_0.9.0/
+    cp rqx590_0x24.vme ./fpga_flash_tool_0.9.2/
     ```
 
 2. Follow below commands to flash the FPGA:
 
     ```bash
-    cd fpga_flash_tool_0.9.0
-    chmod +x RQX590-JTAG.run
-    sudo ./RQX590-JTAG.run -c rqx590_0x24.vme
+    cd fpga_flash_tool_0.9.2
+    chmod +x fpga_flash_tool.run
+    sudo ./fpga_flash_tool.run rqx590 -c rqx590_0x24.vme
+    
+    # Use jetpack5/fpga_flash_tool_jp5.run for JetPack 5 BSP
     ```
 
     ![](pictures/fpga_flashing.png)
