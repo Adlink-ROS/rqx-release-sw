@@ -69,4 +69,4 @@ Please follow the instructions below to flash RQX FPGA:
 
 For RQX-59x series, if flashing fails, ensure that the DIP switches on the I/O board are set to ON
     
-    ![](pictures/fpga_dip_sw.png)
+![](pictures/fpga_dip_sw.png)
